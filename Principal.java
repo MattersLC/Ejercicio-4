@@ -110,7 +110,10 @@ public class Principal extends javax.swing.JFrame {
         entrada();
         
         for (int i=0; i<PedirFrase.length(); i++) {
-            if ((PedirFrase.charAt(i)=='a') || (PedirFrase.charAt(i)=='e') || (PedirFrase.charAt(i)=='i') || (PedirFrase.charAt(i)=='o') || (PedirFrase.charAt(i)=='u')){
+            if ((PedirFrase.charAt(i)=='a') || (PedirFrase.charAt(i)=='e') || (PedirFrase.charAt(i)=='i') || (PedirFrase.charAt(i)=='o') || (PedirFrase.charAt(i)=='u') ||
+                (PedirFrase.charAt(i)=='á') || (PedirFrase.charAt(i)=='é') || (PedirFrase.charAt(i)=='í') || (PedirFrase.charAt(i)=='ó') || (PedirFrase.charAt(i)=='ú') ||
+                (PedirFrase.charAt(i)=='A') || (PedirFrase.charAt(i)=='E') || (PedirFrase.charAt(i)=='I') || (PedirFrase.charAt(i)=='O') || (PedirFrase.charAt(i)=='U') ||
+                (PedirFrase.charAt(i)=='Á') || (PedirFrase.charAt(i)=='É') || (PedirFrase.charAt(i)=='Í') || (PedirFrase.charAt(i)=='Ó') || (PedirFrase.charAt(i)=='Ú')){
                 contador++;
             }
         }
